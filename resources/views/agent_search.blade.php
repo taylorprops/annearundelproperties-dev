@@ -63,7 +63,7 @@
             <div class="card-image"></div>
             <a href="/agents/{{$agent->agent_id}}">
             @if ($agent->photo_url == '' || $agent->photo_url == null)
-            <img class="card-img-top" src="{{ asset('images/logos/TaylorProperties-1x1.jpg') }}" alt="{{$agent->fullname}}" style="padding: 1em;">
+            <img class="card-img-top" src="{{ asset('images/logos/AnneArundelProperties-1x1.jpg') }}" alt="{{$agent->fullname}}" style="padding: 1em; object-fit: contain;">
             @else
             <img class="card-img-top" src="{{ $agent->photo_url }}" alt="{{$agent->fullname}}">
             @endif

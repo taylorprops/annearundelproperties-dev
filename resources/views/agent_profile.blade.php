@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Find an Agent | Taylor Properties | Buying and Selling Real Estate in DC, MD, VA and PA')
+@section('title', $agent->fullname.' | Taylor Properties | Buying and Selling Real Estate in DC, MD, VA and PA')
 
 @section('content')
 
@@ -16,23 +16,27 @@
           <img class="profile-img-top" src="{{ $agent->photo_url }}" alt="{{$agent->fullname}}" width="100%">
           @endif
         </div>
+        <div class="contact-info">
+            <h3>Contact</h3>
+            @if ($agent->website == '' || $agent->website == null)
+            @else
+            <p><a href="{{$agent->website}}" target="_blank">{{$agent->website}}</a></p>
+            @endif
+            <p class="profile-text phone">{{$agent->cell}}</p>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#emailModal" style="margin-bottom: 1rem;">Email</button>
+          </div>
       </div>
       <div class="col-md-8">
         <div class="profile-body">
           <div class="name">
             <h1><strong>{{$agent->fullname}}</strong></h1>
-            <p class="profile-text designation">{!! $agent->designations !!}</p>
-          </div>
-          <div class="contact-info">
-            <h3>Contact</h3>
-            <p class="profile-text phone">{{$agent->cell}}</p>
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#emailModal" style="margin-bottom: 1rem;">Email</button>
+            <h5 class="profile-text designation">{!! $agent->designations !!}</h5>
           </div>
           <div class="about-me">
             @if ($agent->bio == '' || $agent->bio == null)
             @else
-            <h3>About Me</h3>
             {!! $agent->bio !!}
             @endif
           </div>

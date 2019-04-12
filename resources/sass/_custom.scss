@@ -14,8 +14,11 @@ a {
 }
 
 .btn-primary:hover {
-	background-color: $orange;
-	border-color: $orange;
+	background-color: $green;
+	border-color: $green;
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+	color: #fff;
 }
 
 .profile-body {
@@ -46,13 +49,13 @@ a {
 }
 
 .btn-secondary{
-	background-color: $orange;
-	border-color: $orange;
+	background-color: $green;
+	border-color: $green;
 }
 
 .btn-secondary:hover{
-	background-color: $orange;
-	border-color: $orange;
+	background-color: $green;
+	border-color: $green;
 }
 
 .row.search {
@@ -61,7 +64,7 @@ a {
 
 
 footer {
-	background-color: #215a96;
+	background-color: $tp-blue;
 	color: #ffffff;
 	text-decoration: none;
 
@@ -70,7 +73,7 @@ footer {
 		color: #fff;
 	}
 	a:hover {
-		color: #f05d5e;
+		color: $green;
 		text-decoration: none;
 	}
 	i {

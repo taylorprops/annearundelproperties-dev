@@ -25,7 +25,7 @@
 <nav class="navbar navbar-expand-lg navbar-light static-top">
   <div class="container">
     <a class="navbar-brand" href="/">
-      <img src="{{ asset('images/logos/TaylorProperties-fullcolor.png') }}" alt="Taylor Properties" style="max-width: 150px;">
+      <img src="{{ asset('images/logos/AnneArundelProperties.png') }}" alt="Taylor Properties" style="max-width: 150px;">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -50,10 +50,10 @@
           <a class="nav-link dropdown-toggle" href="/about" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
           <div class="dropdown-menu" aria-labelledby="dropdown01">
             <a class="dropdown-item" href="/about">About Us</a>
-            <a class="dropdown-item" href="/about/team">Team</a>
+            <a class="dropdown-item" href="/careers">Careers</a>
             <a class="dropdown-item" href="/about/offices">Offices</a>
             <a class="dropdown-item" href="/about/partners">Partners</a>
-            <a class="dropdown-item" href="/careers">Careers</a>
+            <a class="dropdown-item" href="/about/team">Team</a>
           </div>
         </li>
         <li class="nav-item">

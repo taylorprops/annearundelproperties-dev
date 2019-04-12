@@ -8,8 +8,8 @@
       <div class="row">
 
         <!-- Grid column -->
-        <div class="col-md-3 mx-auto">
-          <a href="/"><img class="footer-logo" src="{{ asset('images/logos/TaylorProperties-white.png') }}" style="width: 100%; padding: 1rem;"></a>
+        <div class="col-md-2 mx-auto">
+          <a href="/"><img class="footer-logo" src="{{ asset('images/logos/AnneArundelProperties-white.png') }}" style="width: 100%; padding: 1rem;"></a>
         </div>
         <!-- Grid column -->
 
@@ -22,7 +22,7 @@
           <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Corporate HQ</h5>
 
           175 Admiral Cochrane Drive<br>
-        Suite 112<br>
+        Suite 111-112<br>
         Annapolis, MD 21401<br>
          <a href="tel:8005900925">800-590-0925</a>
 

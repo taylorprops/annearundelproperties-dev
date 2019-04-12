@@ -21,7 +21,7 @@
       background-position: center center;
       position: relative;
       z-index: -2;
-      background-image: url('/images/taylorprops-hero.jpeg');
+      background-image: url('{{asset('/images/waterfront-home.jpg')}}');
     }
 
     .overlay {
@@ -101,7 +101,7 @@
 <div class="jumbotron jumbotron-fluid bg-cover">
   <div class="overlay"></div>
   <div class="container">
-    <h1 class="display-4" style="font-weight: 700;color:#a3cef1;">LOVE YOUR HOME</h1>
+    <h1 class="display-4" style="font-weight: 700;color:#215a96;">WELCOME <span style="color: #009d5c">HOME</span></h1>
     <p class="lead">Taylor Properties is the largest independent real estate brokerage in Maryland with over 800 local agents.</p>
   </div>
 </div>
